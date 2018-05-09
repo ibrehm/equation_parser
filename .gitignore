@@ -1,0 +1,9 @@
+bin/
+obj/
+*.cbp
+*.depend
+*.layout
+*.sh
+*.bak
+*.directory
+*.txt
