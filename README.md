@@ -11,7 +11,7 @@ Would give the result 750.
 
 Would give the result 144.
 
-12^(1/2);
+144^(1/2);
 
 Would give the result 12.
 
