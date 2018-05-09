@@ -92,7 +92,7 @@ double Solve(const std::string &str) {
 
 	unsigned int i = 0;
 	while(i < str.size()) {
-        if(str[i] == '(') {
+		if(str[i] == '(') {
 			levels.push_back(temp);
 		} else if( (str[i] == ')') || (str[i] == ';') ) {
 			if(parsing_value == true) {
@@ -116,9 +116,9 @@ double Solve(const std::string &str) {
 				current_value = '-' + current_value;
 				parsing_value = true;
 			} else {
-                parsing_value = false;
-                levels[levels.size()-1].AddNumber(std::stod(current_value));
-                current_value = "0";
+				parsing_value = false;
+				levels[levels.size()-1].AddNumber(std::stod(current_value));
+				current_value = "0";
 				levels[levels.size()-1].AddSymbol(str[i]);
 			}
 		} else if( ( (str[i] >= '0') && (str[i] <= '9') ) || str[i] == '.') {

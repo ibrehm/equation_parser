@@ -14,14 +14,14 @@ int main(int argc, char *argv[]) {
 		equation.append(argv[1]);
 
 		if(equation[ equation.size() -1 ] != ';') {
-            equation.push_back(';');
+			equation.push_back(';');
 		}
 
 		double num = Solve<double>(equation);
 		std::cout << num << "\n";
 	}
 
-	return(0);
+    return(0);
 
 }
 //------------------------------------------------------------------------------
