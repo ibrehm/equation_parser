@@ -1,4 +1,4 @@
-A simple little program I built to parse and solve basic math equations.
+A simple little program I built for fun to parse and solve basic math equations.
 
 Example:
 
