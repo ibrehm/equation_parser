@@ -1,4 +1,5 @@
-A simple little program I built for fun to parse and solve basic math equations.
+A simple little program I built for fun to parse and solve basic math equations. A website that makes use of the program is found at:
+http://gamecrossings.com/php_equation_parser/
 
 Example:
 
